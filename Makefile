@@ -2,7 +2,7 @@
 all: build-deps build fmt
 ALL_PACKAGES=$(shell go list ./... | grep -v "vendor")
 UNIT_TEST_PACKAGES=$(shell go list ./... | grep -v "vendor")
-APP_EXECUTABLE="out/kube-ecr"
+APP_EXECUTABLE="out/kube-ecr-helper"
 setup:
 	go get -u github.com/golang/dep/cmd/dep
 	go get -u github.com/golang/lint/golint

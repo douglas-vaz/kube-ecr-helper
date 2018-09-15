@@ -1,6 +1,6 @@
 package main
 
-import "github.com/douglas-vaz/ecr-token-helper/cmd"
+import "github.com/douglas-vaz/kube-ecr-helper/cmd"
 
 func main() {
 	cmd.Execute()
